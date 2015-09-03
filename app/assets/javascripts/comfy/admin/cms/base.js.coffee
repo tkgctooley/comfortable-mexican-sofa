@@ -91,7 +91,7 @@ window.CMS.wysiwyg = ->
     formatting:       ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
     plugins:          ['imagemanager', 'filemanager', 'table', 'video', 'definedlinks']
     lang:             CMS.locale
-    convertDivs:      false
+    replaceDivs:      false
 
 
 window.CMS.codemirror = ->
