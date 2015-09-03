@@ -75,6 +75,8 @@ For more information please refer to [Wiki](https://github.com/comfy/comfortable
 #### Dependencies
 
 * Install [ImageMagick](http://www.imagemagick.org/) for [paperclip](https://github.com/thoughtbot/paperclip)'s image processing
+As long as you successfully ran `bundle install` you should be ok. However, Paperclip requires *ImageMagick* to be installed to handle thumbnail generation.
+
 * Make sure that Gemfile has either [kaminari](https://github.com/amatsuda/kaminari) or [will_paginate](https://github.com/mislav/will_paginate)
 
 #### Help and Contact
